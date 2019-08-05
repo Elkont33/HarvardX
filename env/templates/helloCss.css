@@ -1,0 +1,77 @@
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    font-family: cursive,monospace,sans-serif;
+
+}
+h2{
+color:ghostwhite;
+text-align: center;
+font-family: cursive,monospace,sans-serif;        
+}
+#Div1 {
+    background-color: black;
+    font-family: cursive, fantasy,serif,monospace;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+}
+ .container {
+                display: flex;
+                flex-wrap: wrap;
+                background-color: lightgreen;
+            }
+
+            .container > div {
+                background-color: springgreen;
+                margin: 3px;
+                padding: 10px;
+                width: 350px;
+            }
+            div > img {
+                height: 300px;
+                width: 100%;
+            }
+            div > img:hover{
+                width: 120%;
+                animation-direction: alternate;
+            }
+table{
+border: solid black;
+border-collapse: collapse;
+width: 50%;
+text-align: center;
+}
+th,td{
+    border: solid blue;
+    border-collapse: collapse ;
+}
+th{
+background-color: lightgray;
+color: blue;
+}
+form{
+    margin: 10px;
+}
+ol > li {
+color: deepskyblue;
+}
+li{
+align-items: center;
+}
+button{
+background-color: beige;
+}
+button:hover {
+    background-color: aqua;
+}
+button::before{
+    content:"Click to";
+}
+@media (max-width: 1000px){
+    h1,h2{
+    font-size: 20px;
+    font-weight: bolder;
+    }   
+}

@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 @app.route("/")
 def index():
-    return "Hello world !"
-@app.route("/david")
-def david():
-    return "Hello david!"
+    return render_template("hello.html")
+@app.route("/<string:name>")
+def hello(name):
+    return f"Hello {name}!"

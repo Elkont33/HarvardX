@@ -1,18 +1,20 @@
 <!DOCTYPE HTML>
 <html> 
     <head>
-        <title> HarvardX course </title>
+        <title> Welcome to my portifolio ! </title>
         <link rel= "stylesheet" href="helloCss.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
 <!--        Headings and divs -->
         <div id="Div1">
-        <h1> Hello World </h1>
-        <h2> Hello world second </h2>
-        <h3> Hello world third </h3>
-        <h4> Hello world four </h4>
-        <h5> Hello world fifth </h5>
-        <h6> Hello world sixth </h6>
+        <h1 id="Welcome"> Welcome to my Portifolio ! </h1>
+        <h1> Mahmoud Shahin </h1>
+        <h2> Full Stack Web developer </h2>
+<!--        <h3> Hello world third </h3>-->
+<!--        <h4> Hello world four </h4>-->
+<!--        <h5> Hello world fifth </h5>-->
+<!--        <h6> Hello world sixth </h6>-->
         </div>
 <!--        Un ordered List -->
         <ul>
@@ -31,8 +33,25 @@
             </ul>
         </ol>
         </br>
-<!--        image -->
-        <img src="Love.jpg" alt="Love Pic" height="20%" width="20%" style="transform:rotate(0deg); margin: 20; padding:20px ;" >
+<!--        images of divs -->
+    <div class="container">
+    <div>
+        <img src="Love.jpg" alt="Love Pic" >
+    </div>
+         <div>
+        <img src="Love.jpg" alt="Love Pic" >
+    </div>
+         <div>
+        <img src="Love.jpg" alt="Love Pic" >
+    </div>
+         <div>
+        <img src="Love.jpg" alt="Love Pic" >
+    </div>
+         <div>
+        <img src="Love.jpg" alt="Love Pic" >
+    </div>
+    </div>
+        
         </br></br>
 <!--Table -->
     <table>
@@ -68,7 +87,6 @@
             </br>
             <input type="text" list= "countries" placeholder="Country">
 <datalist id ="countries">
-     <datalist id="country">
         <option value="Afghanistan" />
         <option value="Albania" />
         <option value="Algeria" />
@@ -309,8 +327,8 @@
         <option value="Zambia" />
         <option value="Zimbabwe" />
     </datalist>
-</br>
-            <button> Submit now! </button>
+    
+            <button class="btn btn-primary"> Submit now! </button>
 
         </form>
 <footer> New feature of footer </footer>
